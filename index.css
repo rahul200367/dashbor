@@ -1,0 +1,61 @@
+.Active{
+    background-color:rgb(59, 59, 61);
+}
+.navcon{
+display: flex;
+justify-content: space-between;
+padding: .5em 2em;
+background-color: #fff;
+}
+.max-width{
+    margin:.1em .01em .1em .1em;
+    width: 1300px;
+    background-color: #e9ecec;
+}
+.integer{
+    font-size:1.5em;
+}
+.bold{
+    font-weight: 500;
+    color:#939090;
+
+}
+.chart{
+    border-radius: 2%;
+}
+.smir{
+    color:red;
+}
+.smi{
+    color:green;
+}
+.downm{
+    margin-top: 1em;
+}
+#map {
+    height: 400px; /* Set the desired height for your map */
+    width: 100%; /* Adjust the width as needed */
+}
+#calendar {
+    width: 250px;
+    margin: 0 auto;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #eee;
+  }
+  
+  .today {
+    background-color: #999;
+  }
