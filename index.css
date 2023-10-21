@@ -61,18 +61,36 @@ background-color: #fff;
   }
   .conta{
     position:absolute;
-    left:0em;
+    left:.1em;
     right:0em;
   }
   .horizontal-collapse {
-    width: 100%;
+    width:auto;
     transition: transform 0.4s ease-in;
     transform-origin: top right;
 }
-
 .horizontal-collapse.show {
     transform: scaleX(1);
 }
 html{
     background-color:  #e9ecec;
+}
+.Dflex{
+  display:flex;
+  justify-content:flex-start;
+  gap:1px
+}
+.conatinerwidth{
+  position: absolute;
+  left:0em;
+  right:0em;
+  width:100%;
+}
+
+.Dflext{
+  display:flex;
+  justify-content: space-between;
+  align-items:self-start;
+  margin-top: 5em;
+  gap:1em;
 }
